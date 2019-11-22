@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice 8</title>
+</head>
+
+<body>
+
+    <h1 onclick="displayVar()">John Doe</h1>
+
+    <hr>
+
+    <p>Ecrire votre prénom et cliquer sur envoyer :</p>
+    <label for="firstName"></label>
+    <input type="text" id="firstName" name="firstName">
+    <button onclick="displayInfo()">Envoyer</button>
+
+    <hr>
+
+    <form action="">
+        <div><label for="lastName2">Votre nom :</label>
+            <input type="text" id="lastName2" name="lastName2" placeholder="Votre nom"></div>
+        <div> <label for="firstName2">Votre prénom :</label>
+            <input type="text" id="firstName2" name="firstName2" placeholder="Votre prénom"></div>
+        <div> <label for="city2">Votre ville:</label>
+            <input type="text" id="city2" name="city2" placeholder="Votre ville"></div>
+        <button onclick="displayVar2()">Envoyer</button>
+    </form>
+
+    <hr>
+    <form action="">
+        <label for="x">
+            x
+        </label>
+        <input type="number" id="x" name="x">
+        <label for="y">
+            y
+        </label>
+        <input type="number" id="y" name="y">
+        <button onclick="calcul()">Calculer</button>
+    </form>
+
+    <hr>
+
+    <form action="">
+        <label for="pointure">
+            pointure
+        </label>
+        <input type="number" id="pointure" name="pointure">
+        <label for="annee">
+            annee
+        </label>
+        <input type="number" id="annee" name="annee">
+        <button onclick="calcul2()">Calculer</button>
+
+        <hr>
+
+        <form action="">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+            <button onclick="verification()">Vérifier</button>
+        </form>
+
+        <hr>
+
+        <script src="assets/js/script.js"></script>
+</body>
+
+</html>
